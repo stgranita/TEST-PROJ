@@ -4,7 +4,7 @@ class MyThreadRunnable1 implements Runnable{
     public void run(){
         int i=0;
         while (i < 4) {
-        System.out.println("Running Thread 1" + i); // Running state
+        System.out.println("Running Thread: 1" + i); // Running state
              try {Thread.sleep(1000);} //this is waiting state
              catch (Exception e) {
                 System.out.println(e.getMessage()); }
